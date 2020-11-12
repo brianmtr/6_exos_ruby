@@ -1,14 +1,15 @@
 #exercice numéro 2
-def multiplication_table num
+#pour demander la saisie au user
+nb = gets.to_i
+
+#incrementation de num de 1 à 10
+for num in 0..9
+    num = num + 1
+
+    #calcul sorti
+    puts"#{num} * #{nb} = #{num * nb}"
 end
 
-4 * 6
-#result
 
-5 * 8
-#result
 
-7 * 3
-#result
 
-2 * 4

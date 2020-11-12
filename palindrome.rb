@@ -4,11 +4,11 @@ def palindrome?(string)
     return (string == string.reverse)
 end
 
-puts('le mot "brian"n\'est pas un palindrome == false: ' + (palindrome?('brian') == false).to_s)
+puts(palindrome?(gets.chomp))
 #brian n'est donc pas un palindrome
 
-puts('le mot "abba" n\'est pas un palindrome == true: ' + (palindrome?('abba') == true).to_s)
-#abba est donc pas un palindrome
+puts(palindrome?(gets.chomp))
+#abba est donc  un palindrome
 
 
 

@@ -1,22 +1,20 @@
 #exercie numéro 3
-def name(string)
-    def surname(string)
-    end
+puts "Entre ton nom"
+nom =gets.chomp
+
+puts "Entre ton surnom"
+surnom =gets.chomp
+
+if nom != '' && surnom == ''
+    puts "Hello #{nom}"
 end
 
-#add my name
-name = gets
-Brian
+if nom == '' && surnom != ''
+puts "Hello #{surnom}"
+end
 
-#add my surname
-surname = gets
-Mortuaire
+if nom != '' && surnom != ''
+    puts "Hello #{surnom.capitalize}"
+end
 
-"Hello #{name.chomp}"
-#result = Hello Brian
 
-"Hello #{surname.chomp}"
-#result = Hello Mortuaire
-
-"Hello #{name.chomp} #{surname.chomp}"
-#result = Hello Brian Mortuaire
